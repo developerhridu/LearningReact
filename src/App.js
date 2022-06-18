@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import Student from './components/Students';
 
@@ -6,10 +6,11 @@ function App() {
   return (
     <div className="App">
       {/* <h1>Hello Hridu</h1> */}
-      <Student name= "Rahim" department="ECE" stdId= "1702100"/>
+       <Student name= "Rahim" department="ECE" stdId= "1702100"/>
       <Student name= "Karim" department="CSE" stdId= "1702001"/>
-      <Student name= "Hridu" department="EEE" stdId= "1702100"/>
+       <Student name= "Hridu" department="EEE" stdId= "1702100"/>
       <Student name= "Rahim" department="ECE" stdId= "1702100"/>
+
       
       
     </div>
@@ -25,15 +26,17 @@ function App() {
 //   // )
 //   return React.createElement('div', { className: 'Student'}, React.createElement('h2', null, "I am From Student"));
 // }
-class Test extends Component {
-  render() {
-    return (
-      <div className="App">
-        <h1> I am From Class </h1>
-      </div>
-    )
-  }
-}
+
+// Class Component
+// class Test extends Component {
+//   render() {
+//     return (
+//       <div className="App">
+//         <h1> I am From Class </h1>
+//       </div>
+//     )
+//   }
+// }
 
 
 
